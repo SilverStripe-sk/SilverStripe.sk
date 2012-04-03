@@ -4,3 +4,6 @@
 [submodule "sapphire"]
 	path = sapphire
 	url = git://github.com/silverstripe/sapphire.git
+[submodule "googlesitemaps"]
+	path = googlesitemaps
+	url = git://github.com/silverstripe-labs/silverstripe-googlesitemaps.git
