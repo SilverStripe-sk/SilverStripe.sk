@@ -7,3 +7,6 @@
 [submodule "googlesitemaps"]
 	path = googlesitemaps
 	url = git://github.com/silverstripe-labs/silverstripe-googlesitemaps.git
+[submodule "googleanalytics"]
+	path = googleanalytics
+	url = git://github.com/silverstripe-labs/silverstripe-googleanalytics.git
