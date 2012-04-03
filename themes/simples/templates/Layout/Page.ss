@@ -8,7 +8,7 @@
         
         $Content
         $Form
-        $PageComments
+        $DisqusPageComments
 
     </div>  <!-- /Content -->
 

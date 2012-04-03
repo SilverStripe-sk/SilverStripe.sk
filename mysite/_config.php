@@ -28,7 +28,7 @@ Object::add_extension('Image','MainImageImageDecorator');
 Object::add_extension('Page','SideBarDecorator');
 Object::add_extension('Page_Controller', 'CssCompressingExtension');
 //
-ZendSearchLuceneSearchable::enable();
+ZendSearchLuceneSearchable::enable(array('SiteTree'));
 Object::add_extension('Post',"ZendSearchLuceneSearchable('Content')");
 //Object::add_extension('ForumThread',"ZendSearchLuceneSearchable('Title')");
 Object::add_extension('BlogEntry',"ZendSearchLuceneSearchable('"

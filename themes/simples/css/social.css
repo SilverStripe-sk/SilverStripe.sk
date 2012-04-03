@@ -1,0 +1,40 @@
+#socialmediaWidget h4 {
+	margin: 0 0 5px 0
+}
+
+#socialmediaWidget h4.follow {
+	margin-top: 10px
+}
+
+
+.socialmediaTW{
+	background:url('/mysite/images/twitt-small.gif') no-repeat;
+	padding-left:20px !important;
+}
+.socialmediaFB{
+	background:url('/mysite/images/fb-small.gif') no-repeat;
+	padding-left:20px !important;
+}
+.socialmediaLIN{
+	background:url('/mysite/images/li-small.gif') no-repeat;
+	padding-left:20px !important;
+}
+.socialmediaYT{
+	background:url('/mysite/images/yt-small.gif') no-repeat;
+	padding-left:20px !important;
+}
+#socialmediaList {
+    line-height:1.8;
+    list-style-type: none; 
+    margin: 0;
+    padding: 0 0 0 2px
+}
+
+#socialmediaList li {
+    padding:0px;
+    margin: 0
+}
+
+#socialmediaWidget div.addthis_toolbox {
+	height: 2em
+} 

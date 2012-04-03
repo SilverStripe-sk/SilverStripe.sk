@@ -1,6 +1,5 @@
-
+<div id="sidebar">
 <% if Menu(2) %>
-    <div id="sidebar">
             
         <h3>$Level(1).Title</h3>    
             
@@ -22,7 +21,9 @@
             </li>
             <% end_control %>
         </ul>
-        
-    </div> <!-- /Sidebar -->
+       
+<% else %>
+<% include Social %>			
 <% end_if %>
 $SideBar
+</div> <!-- /Sidebar -->

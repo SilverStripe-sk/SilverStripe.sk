@@ -122,6 +122,7 @@ ul#Posts {
 	float: left;
 	margin: 0;
 	list-style: none;
+	width: 100%
 }
 #PostContentNormal,	#FirstPost {
 	width: 100%;

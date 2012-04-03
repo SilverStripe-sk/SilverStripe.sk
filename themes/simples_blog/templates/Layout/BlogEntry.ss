@@ -31,7 +31,7 @@
             <% include TrackBacks %>
         <% end_if %>
         
-        $PageComments
+        $DisqusPageComments
     </div>
     
     <div class="clear"><!-- --></div>
