@@ -19,3 +19,6 @@
 [submodule "disqus"]
 	path = disqus
 	url = git://github.com/silverstripesk/silverstripe-disqus.git
+[submodule "lucene"]
+	path = lucene
+	url = git://github.com/rixrix/silverstripe-lucene.git
