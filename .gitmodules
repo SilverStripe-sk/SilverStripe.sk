@@ -22,3 +22,6 @@
 [submodule "lucene"]
 	path = lucene
 	url = git://github.com/rixrix/silverstripe-lucene.git
+[submodule "queuedjobs"]
+	path = queuedjobs
+	url = git://github.com/nyeholt/silverstripe-queuedjobs.git
