@@ -16,3 +16,6 @@
 [submodule "forum"]
 	path = forum
 	url = git://github.com/silverstripe/silverstripe-forum.git
+[submodule "disqus"]
+	path = disqus
+	url = git://github.com/silverstripesk/silverstripe-disqus.git
