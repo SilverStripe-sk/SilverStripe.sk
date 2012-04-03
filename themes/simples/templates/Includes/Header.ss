@@ -1,6 +1,6 @@
 <div id="header">
 
-    $SearchForm
+    <div id="SearchForm">$ZendSearchLuceneForm</div>
             
     <a class="siteName" href="/" title="Go to home page">$SiteConfig.Title <span>$SiteConfig.Tagline</span></a>
     

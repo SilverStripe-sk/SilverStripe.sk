@@ -25,3 +25,4 @@
         
     </div> <!-- /Sidebar -->
 <% end_if %>
+$SideBar

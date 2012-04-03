@@ -221,7 +221,7 @@ input.error{
  * 
  ******************************/	
 /* Search form position */	
-form#SearchForm_SearchForm{
+#SearchForm form{
 	border: none;
 	margin: 0;
 	float: right;
@@ -230,12 +230,12 @@ form#SearchForm_SearchForm{
 	padding: 0;
 	border: none;
 } 
-form#SearchForm_SearchForm fieldset{
+#SearchForm form fieldset{
 	float: right;
 	width: 225px;
 	position: relative;
 }
-	form#SearchForm_SearchForm .middleColumn{
+#SearchForm form .middleColumn{
 		width: 195px;
 		padding: 0;
 		margin: 0;
@@ -244,7 +244,7 @@ form#SearchForm_SearchForm fieldset{
 		top: 0;	
 		background: none;
 	}
-		form#SearchForm_SearchForm input.text{
+#SearchForm form input.text{
 			background: #f2f2f2;
 			border: 1px solid #023558;
 			width: 170px;
@@ -253,7 +253,7 @@ form#SearchForm_SearchForm fieldset{
 			padding: 7px 10px;
 			margin: 0;
 		}
-		form#SearchForm_SearchForm input.action{
+#SearchForm form input.action{
 			background: url(../images/search_icon.png) no-repeat center -10px ;
 			margin: 0;
 			width: 45px;
@@ -265,7 +265,7 @@ form#SearchForm_SearchForm fieldset{
 			text-transform: capitalize;
 			text-indent: -5000px;
 		}
-		form#SearchForm_SearchForm input.action:hover{
+#SearchForm form input.action:hover{
 			background-position: center -60px
 		}
 

@@ -1,0 +1,12 @@
+@media print
+{
+  body { font-size:10pt; }
+
+  #topnav, #nav, #search { display:none; }
+
+  h1,h2,h3,h4,h5,h6 { page-break-after:avoid; }
+
+  #col1, #col1_content { float:none; width:100%; margin:0; padding:0; border:0; }
+  #col2 { display:none; }
+  #col3 { display:none; }
+}

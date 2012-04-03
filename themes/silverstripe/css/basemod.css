@@ -1,0 +1,59 @@
+@media screen, projection
+{
+  body { overflow-y:scroll; }
+
+  body { background:#eee; padding:10px 0; }
+
+  body { text-align:center; }
+  .page_margins { text-align:left; margin:0 auto; }
+
+  .page_margins { width:960px; background:#fff }
+  .page {}
+
+  #header {
+	position:relative;
+	height: 120px;
+	overflow: hidden
+  }
+
+  #col1 { float: right; width: 710px} /* change iepatch.css if changed */
+  #col2 { display:none}
+  #col3 { width: auto; margin: 0 710px 0 0}
+  #col1_content { padding: 0 20px 1em 20px }
+  #col3_content { padding: 0 0 1em 20px }
+
+  #header, #nav, #main, #footer { clear:both; }
+
+  #topnav { 
+    position:absolute;
+    top:70px;
+    right:0; /* LTR */
+	text-align:right; /* LTR */
+  }
+
+  #topnav a { font-weight:normal; background:transparent; text-decoration:none; }
+  #topnav a:focus,
+  #topnav a:hover,
+  #topnav a:active { text-decoration:underline; background-color:transparent; }
+  
+  #logo { 
+    position:absolute;
+    top:10px;
+    left:0
+  }
+  
+  #search { 
+    position:absolute;
+    top:40px;
+    right:0;
+	text-align:right
+  }
+  
+  #search form, #search fieldset {margin: 0; padding: 0; background: transparent; border: 0 none}
+  #search #Search {float: left; margin: 0}
+
+  #footer a { background:transparent; color: #ddd; text-decoration:underline }
+  #footer a:focus,
+  #footer a:hover,
+  #footer a:active {background-color:transparent; text-decoration:none }
+}

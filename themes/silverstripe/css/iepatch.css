@@ -1,0 +1,16 @@
+@media screen, projection
+{
+ /**
+  * Bugfix for IE 3-Pixel-Jog Bug
+  *
+  * @bugfix
+  * @affected   IE 5.x/Win, IE6
+  * @css-for    IE 5.x/Win, IE6
+  * @valid      yes
+  */
+
+  * html #col3 {height: 1%}
+  * html #col1 {margin-left: -3px}
+  * html #col3 {margin-right: 707px}
+}
+

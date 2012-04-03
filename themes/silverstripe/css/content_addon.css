@@ -1,0 +1,14 @@
+h1, .WidgetHolder h3, #disqus_thread h3 {background:transparent url(/themes/silverstripe/images/bullet.blue.png) no-repeat left center; color: #1198d0; padding-left: 20px; line-height: 40px}
+.WidgetHolder {padding: 0 15px; font-size: 90%}
+
+h2 a {color: #44c7f5; text-decoration: none; background:transparent url(/themes/silverstripe/images/bullet.blue2.png) no-repeat left center; padding-left: 20px}
+h2 a:visited {background:transparent url(/themes/silverstripe/images/bullet.blue2visited.png) no-repeat left center; color: #44c7f5;}
+h2 a:hover {color: #223438; text-decoration: underline; background:transparent url(/themes/silverstripe/images/bullet.black.png) no-repeat left center;}
+
+div.Content_children_item {border-color: #e7f6fd}
+div.Content_children_item.even {background: #f6fcff; border-color: #e7f6fd}
+p.BlogVitals span {border-bottom: 1px dotted #aaa}
+div.Content_children_item p.BlogVitals {margin-bottom: .5em}
+
+p.tagcloud {font-size: 75%}
+p.tagcloud a {color: #666}

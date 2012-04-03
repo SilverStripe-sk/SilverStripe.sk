@@ -17,8 +17,8 @@ class MainImagePageDecorator extends DataObjectDecorator {
 class MainImageImageDecorator extends DataObjectDecorator {
 		
 	function generateOriginalSize( $gd ) { return $gd; }
-	function generateThumbSize( $gd ) { return $gd->resizeByWidth( 120 ); }
-	function generateMiniThumbSize( $gd ) { return $gd->resizeByWidth( 90 ); }
+	function generateThumbSize( $gd ) { return $gd->croppedResize( 206, 150 ); }
+	function generateMiniThumbSize( $gd ) { return $gd->croppedResize( 120, 120 ); }
 	function generateFullSize( $gd ) { return $gd->resizeRatio( 1024, 768 ); }
 	
 	function Full() {

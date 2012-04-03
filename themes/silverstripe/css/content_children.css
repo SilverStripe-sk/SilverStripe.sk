@@ -1,0 +1,9 @@
+#Content_children {margin-top: 1em}
+.Content_children_item {border-top: 1px solid #dedede; padding: 1em 10px 1em 10px}
+.Content_children_item p {margin-bottom: 0}
+.Content_children_item.even {background: #efefef}
+.cImage { width:210px; float:right}
+.cImage .subcr {padding: 0}			
+.cContent {width: 66%; float:left; }
+.cImage img {display: block; border: 1px solid #dedede; padding: 1px}
+.cImage a:focus img, .cImage a:hover img, .cImage a:active img {border: 1px solid #888}

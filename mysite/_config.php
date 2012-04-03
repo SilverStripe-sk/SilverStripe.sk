@@ -10,6 +10,8 @@ MySQLDatabase::set_connection_charset('utf8');
 //Force redirect to www.
 Director::forceWWW();
 //
+FulltextSearchable::enable();
+//
 SSViewer::set_theme('simples');
 //
 GD::set_default_quality(90);
@@ -19,11 +21,19 @@ SiteTree::enable_nested_urls();
 //
 Validator::set_javascript_validation_handler('none');
 //
-//Object::add_extension('Page','MainImagePageDecorator');
-//Object::add_extension('Image','MainImageImageDecorator');
+Object::add_extension('Page','MainImagePageDecorator');
+Object::add_extension('Image','MainImageImageDecorator');
 //Object::add_extension('Page','PerexDecorator');
 //Object::add_extension('Page','SideBarDecorator');
+Object::add_extension('Page','SideBarDecorator');
 Object::add_extension('Page_Controller', 'CssCompressingExtension');
+//
+ZendSearchLuceneSearchable::enable();
+Object::add_extension('Post',"ZendSearchLuceneSearchable('Content')");
+//Object::add_extension('ForumThread',"ZendSearchLuceneSearchable('Title')");
+Object::add_extension('BlogEntry',"ZendSearchLuceneSearchable('"
+    ."Title,MenuTitle,MetaTitle,MetaDescription,MetaKeywords,"
+    ."Tags')");
 //
 // Maxneed config
 //Object::add_extension("SiteTree", "MyMetaTagsDecorator");

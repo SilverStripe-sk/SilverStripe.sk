@@ -16,7 +16,7 @@
                       <h3><a class="searchResultHeader" href="$Link">$Title</a></h3>
                     <% end_if %>
                   <% if Content %>
-                    $Content.FirstParagraph(html)
+                    $Content.SearchTextHighlight(50)
                   <% end_if %>
                   <p><a class="readMoreLink" href="$Link" title="Read more about &quot;{$Title}&quot;">Read more about &quot;{$Title}&quot;...</a></p>
                 </li>

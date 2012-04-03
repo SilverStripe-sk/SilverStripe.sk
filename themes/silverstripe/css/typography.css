@@ -1,0 +1,19 @@
+  .highlight { color:#c30; }
+  .dimmed { color:#888; }
+
+  .info { background:#f8f8f8; color:#666; padding:10px; margin-bottom:0.5em; font-size:91.7%; }
+
+  .note { background:#efe; color:#040; border:2px #484 solid; padding:10px; margin-bottom:1em; }
+  .important { background:#ffe; color:#440; border:2px #884 solid; padding:10px; margin-bottom:1em; }
+  .warning { background:#fee; color:#400; border:2px #844 solid; padding:10px; margin-bottom:1em; }
+
+.float_left, .vlavo, img.left { float: left; display:inline; margin-right: .6em; margin-bottom: .5em}
+.float_right, .vpravo, img.right { float: right; display:inline; margin-left: .6em; margin-bottom: .5em}
+.center { display: block; text-align:center; margin: 0.5em auto }
+.text_right {text-align: right}
+
+.floatbox {}
+.subcolumns {}
+.c50l, .c50r {}
+
+.red {color: #ff0000;}
