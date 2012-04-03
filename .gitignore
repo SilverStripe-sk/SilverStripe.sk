@@ -1,0 +1,5 @@
+~
+assets/*
+.project
+.settings/
+silverstripe-cache

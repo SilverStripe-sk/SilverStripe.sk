@@ -1,0 +1,263 @@
+ form {
+    background: #fff;
+    border: 0px #ddd solid;
+    margin: 0 0 1em 0;
+    padding: 10px;
+  }
+
+  form fieldset {
+    border: 0px #ddd solid;
+    background: #fff;
+    margin: 0 0 1em 0;
+    padding: 0.5em 1em;
+  }
+
+  form legend {
+    font-size: 125%; font-weight: normal; color: #000;
+  }
+
+  form label {
+    color: #666;
+  }
+
+  form .text input,
+  form .email input,
+  form .password input,
+  form .textarea textarea,
+  form .dropdown select {
+    font-family:  Arial, Helvetica, sans-serif; /* proportional fonts for all form elements */
+    border: 1px solid #ddd;
+  }
+
+  form div input:focus,
+  form div select:focus,
+  form div textarea:focus,
+  form div input:hover,
+  form div select:hover,
+  form div textarea:hover,
+  form div input:active,
+  form div select:active,
+  form div textarea:active {
+    border: 1px #a66 solid;
+    background: #fff;
+  }
+
+  form .Actions input {
+    border-top: 1px #ddd solid;
+    border-left: 1px #ddd solid;
+    border-right: 1px #444 solid;
+    border-bottom: 1px #444 solid;
+    color: #fff;
+    background: #008A00;
+    padding: .5em 1.2em;
+  }
+
+  form div.Actions input:focus,
+  form div.Actions input:hover,
+  form div.Actions input:active {
+    border-top: 1px #444 solid;
+    border-left: 1px #444 solid;
+    border-right: 1px #ddd solid;
+    border-bottom: 1px #ddd solid;
+    color: #fff;
+    background: #555; 
+  }
+
+  form div.Actions input#Form_Form_action_clearForm:focus,
+  form div.Actions input#Form_Form_action_clearForm:hover,
+  form div.Actions input#Form_Form_action_clearForm:active {
+    background: #006AC2; color: #fff;
+  }
+
+  form div.Actions input#Form_Form_action_process:focus,
+  form div.Actions input#Form_Form_action_process:hover,
+  form div.Actions input#Form_Form_action_process:active {
+    background: #666; color: #ddd;
+  }
+
+
+ /**
+  * Vertical-Forms - technical base (standard)
+  *
+  * |-------------------------------|
+  * | fieldset                      |
+  * |-------------------------------|
+  * |   label                       |
+  * |   input / select / textarea   |
+  * |-------------------------------|
+  * | /fieldset                     |
+  * |-------------------------------|
+  *
+  * (en) Styling of forms where both label and input/select/textarea are styled with display: block;
+  * (de) Formulargestaltung, bei der sowohl label als auch input/select/textarea mit display: block; gestaltet werden
+  *
+  * WARNING: This part contains several IE-stability-fixes. Don't edit this part if you are not sure, what you're doing!
+  */
+
+  /* General form styling  | Allgemeine Formatierung des Formulars */
+  form { overflow: hidden; }
+  form fieldset { overflow: hidden; }
+  form legend { background: transparent; border: 0; }
+  form label { display:block; cursor: pointer; }
+  form .message { display: block; margin-bottom: 0.5em; color: #666; }
+
+  /* Hiding of hidden fields (otherwise ugly spaces in Firefox) | Versteckte Felder wirklich verstecken (sonst ggf. häßliche Lücken im Firefox) */
+  form input[type=hidden] { display: none !important; }
+
+  /* Highlight mandatory fields | Pflichtfeldkennzeichnung hervorheben */
+  form sup { color: #800; font-weight: bold; }
+
+  /* styling containing DIV elements | Gestaltung der kapselnden DIV-Elemente */
+  form div.text,
+  form div.email,
+  form div.password,
+  form div.dropdown,
+  form p.checkbox,
+  form div.Actions {
+    margin: 1.25em 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* styling standard form elements with 'almost' equal flexible width | Gestaltung der einzelnen Formularelemente mit annähend gleicher Breite */
+  form .text input,
+  form .email input,
+  form .password input,
+  form .textarea textarea {
+    display: block;
+    position: relative;
+    padding: 0.3em 0.3em;
+    width: 58.5%;
+  }
+
+  form .dropdown select {
+    display: block;
+    position: relative;
+    padding: 0.3em 2px 0.3em 1px;
+    width: 60%;
+    cursor: pointer;
+  }
+  form .dropdown select optgroup {
+    font-style: normal;
+    font-weight: bold;
+  }
+
+  form .checkbox input { cursor: pointer; }
+  form .checkbox label { display: inline; }
+
+  /* Styling of buttons | Gestaltung von Buttons */
+  form .Actions input {
+    width: auto;
+    cursor: pointer;
+  }
+
+  /* Styling of error-messages | Fehlermeldungen */
+  form .message, form .required {
+    border: 1px #a00 dashed;
+    background: #faf4f4;
+    padding: 0.5em;
+	color: #800
+  }
+  
+  form .requiredField label {font-weight: bold}
+  
+  form .field {clear: both}
+
+ /*------------------------------------------------------------------------------------------------------*/
+
+ /**
+  * Columnar forms display - technical base (optional)
+  *
+  * |-------------------------------------------|
+  * | fieldset                                  |
+  * |-------------------------------------------|
+  * |                                           |
+  * |   label   |   input / select / textarea   |
+  * |                                           |
+  * |-------------------------------------------|
+  * | /fieldset                                 |
+  * |-------------------------------------------|
+  *
+  * (en) Styling of forms where label floats left of form-elements
+  * (de) Formulargestaltung, bei der die label-Elemente nach links fließen
+  *
+  * WARNING: This part contains several IE-stability-fixes. Don't edit this part if you are not sure, what you're doing!
+  */
+
+  /* Columnar display | Spalten-Darstellung */
+  #Form_Form .text label,
+  #Form_Form .email label,
+  #Form_Form .textarea label,
+  #Form_Form .password label,
+  #Form_Form .dropdown label,
+  #Form_Form .checkboxset label.left,
+  #Form_Form .optionset label.left,
+  #Form_Form .checkbox label {
+    float: left;
+    width: 25%; /* Can be fixed width too | Kann auch eine fixe Angabe sein */
+  }
+  
+  #Form_Form .text label.required,
+  #Form_Form .email label.required,
+  #Form_Form .password label.required,
+  #Form_Form .textarea label.required,
+  #Form_Form .dropdown label.required { float: none; width: auto; margin-left: 25%  }
+  
+
+  /* Indent Checkbox fields to match label-width | Checkboxen um den gleichen Wert einrücken, wie die Breite der labels */
+  #Form_Form .checkbox input {float:right;margin-right:60%; }
+  #Form_Form .message { margin-left: 30%; }
+
+  #Form_Form div.text input,
+  #Form_Form div.email input,
+  #Form_Form div.password input,
+  #Form_Form div.checkboxset ul,
+  #Form_Form div.optionset ul,
+  #Form_Form div.textarea textarea { width: 67.8%; }
+  #Form_Form div.dropdown select { width: 69.4%; }
+  
+  /* width adjustments for IE 5.x & IE6 | Breitenanpassung für Internet Explorer 5.x und 6.0 */
+  * html #Form_Form div.text input,
+  * html #Form_Form div.email input,
+  * html #Form_Form div.password input,
+  * html #Form_Form div.textarea textarea { width: 65.2%; }
+  * html #Form_Form div.dropdown select { width: 66.8%; }
+    
+  /* IE5.x & IE6 */
+  * html form legend { position:absolute; top: -.5em; left: .5em; }
+  * html form fieldset { overflow:visible; height: 1%; margin-top:1.5em; padding-top:1.5em; }
+
+  /* IE7 */
+  *+html form legend { position:absolute; top: -.5em; left: .5em; }
+  *+html form fieldset { overflow:visible; height:1%; margin-top:1.5em; padding-top:1.5em; }
+  
+  ul.optionset, ul.checkboxsetfield {list-style-type: none; margin-left: 25%}
+  ul.optionset li, ul.checkboxsetfield li {float: left; width: 100%; margin: 6px 0 4px 0;}
+  ul.optionset input, ul.checkboxsetfield input {float: left; margin-right: 5px}
+   
+ .recaptchatable .recaptcha_image_cell, #recaptcha_table, #recaptcha_table td {
+   background-color:#fafafa !important; padding: 5px 8px 5px 0 !important
+ }
+ 
+ #recaptcha_table {
+   border-color: #fafafa !important; 
+   width: 50%
+ }
+ 
+ img#recaptcha_tagline {display: none}
+ 
+ #recaptcha_response_field {
+   border-color: #ddd !important; 
+   background-color:#fff !important; 
+ }
+ 
+   #recaptcha_response_field:focus,
+   #recaptcha_response_field:hover,
+   #recaptcha_response_field:active
+    {
+    border-color: #a66 !important;
+  }
+  
+	#Form_Form div.text input, #Form_Form div.email input {width: 350px}
+  form#Form_Form h3 {color: #008A00; padding: 1.33em 0 .33em 0; clear: both}
+
