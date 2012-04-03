@@ -13,3 +13,6 @@
 [submodule "blog"]
 	path = blog
 	url = git://github.com/silverstripe/silverstripe-blog.git
+[submodule "forum"]
+	path = forum
+	url = git://github.com/silverstripe/silverstripe-forum.git
