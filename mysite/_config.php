@@ -62,7 +62,7 @@ setlocale(LC_TIME, i18n::get_locale() . ".utf8");
 //Translatable::set_allowed_locales(array('sk_SK','en_US','de_DE'));
 //
 //Force enviroment to Dev ** REMOVE FOR LIVE SITES **
-Director::set_environment_type("dev");
+//Director::set_environment_type("dev");
 //
 //
 //Force cache to flush on page load if in Dev mode (prevents needing ?flush=1 on the end of a URL)
