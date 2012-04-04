@@ -39,6 +39,7 @@
 	border-bottom:  1px solid #e5e5e5;
 	border-top:  1px solid #fff;
 	padding: 15px 0;
+	position:relative
 }
 	.blogcontent .blogSummary.first {
 		border-top:  none;
@@ -167,3 +168,14 @@ a#unpublishpost{
 	list-style: none;
 	margin-left: 0;
 }
+
+.BlogImage {
+	position: absolute; right: 0; top: 10px;
+}
+
+.BlogImage a {border: 1px solid #e5e5e5; padding: 1px; background: #fff; display: block}
+
+.BlogImage a:hover {border-color: #065489}
+
+.BlogImage img {display: block}
+

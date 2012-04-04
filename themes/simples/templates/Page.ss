@@ -13,6 +13,8 @@
         <% require themedCSS(typography) %>
         <% require themedCSS(form) %>
         
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        
         <!--[if lt IE 8]>
             <link rel="stylesheet" type="text/css" href="themes/simples/css/IE.css" />
         <![endif]-->        

@@ -298,4 +298,139 @@ $lang['sk_SK']['TopicListing.ss']['BY'] = '';
 $lang['sk_SK']['TopicListing.ss']['CLICKTOUSER'] = 'Kliknite sem pre zobrazenie';
 $lang['sk_SK']['TopicListing.ss']['GOTOFIRSTUNREAD'] = 'Prejsť na prvý neprečítaný príspevok tejto témy - %s .';
 
+$lang['sk_SK']['ArchiveWidget']['DispBY'] = 'Display by';
+$lang['sk_SK']['ArchiveWidget']['MONTH'] = 'month';
+$lang['sk_SK']['ArchiveWidget']['PLURALNAME'] = array(
+	'Archive Widgets',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['ArchiveWidget']['SINGULARNAME'] = array(
+	'Archive Widget',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+$lang['sk_SK']['ArchiveWidget']['YEAR'] = 'year';
+$lang['sk_SK']['BlogEntry']['AU'] = 'Autor';
+$lang['sk_SK']['BlogEntry']['BBH'] = 'BBCode help';
+$lang['sk_SK']['BlogEntry']['CN'] = 'Obsah';
+$lang['sk_SK']['BlogEntry']['DT'] = 'Dátum';
+$lang['sk_SK']['BlogEntry']['PLURALNAME'] = array(
+	'Blog Entries',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['BlogEntry']['SINGULARNAME'] = array(
+	'Blog Entry',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+$lang['sk_SK']['BlogEntry']['TS'] = 'Tagy (odd. čiarkou)';
+$lang['sk_SK']['BlogEntry.ss']['COMMENTS'] = 'Komentáre';
+$lang['sk_SK']['BlogEntry.ss']['EDITTHIS'] = 'Edit this post';
+$lang['sk_SK']['BlogEntry.ss']['POSTEDBY'] = 'Zverejnil ';
+$lang['sk_SK']['BlogEntry.ss']['POSTEDON'] = 'dňa';
+$lang['sk_SK']['BlogEntry.ss']['TAGS'] = 'Tagy:';
+$lang['sk_SK']['BlogEntry.ss']['UNPUBLISHTHIS'] = 'Unpublish this post';
+$lang['sk_SK']['BlogEntry.ss']['VIEWALLPOSTTAGGED'] = 'Pozrieť všetky články s tagom ';
+$lang['sk_SK']['BlogHolder']['PLURALNAME'] = array(
+	'Blog Holders',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['BlogHolder']['POST'] = 'Post blog entry';
+$lang['sk_SK']['BlogHolder']['RSSFEED'] = 'RSS feed of these blogs';
+$lang['sk_SK']['BlogHolder']['SINGULARNAME'] = array(
+	'Blog Holder',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+$lang['sk_SK']['BlogHolder']['SJ'] = 'Predmet';
+$lang['sk_SK']['BlogHolder']['SPUC'] = 'Please separate tags using commas.';
+$lang['sk_SK']['BlogHolder']['SUCCONTENT'] = 'Congratulations, the SilverStripe blog module has been successfully installed. This blog entry can be safely deleted. You can configure aspects of your blog (such as the widgets displayed in the sidebar) in [url=admin]the CMS[/url].';
+$lang['sk_SK']['BlogHolder']['SUCTAGS'] = 'silverstripe, blog';
+$lang['sk_SK']['BlogHolder']['SUCTITLE'] = 'SilverStripe blog module successfully installed';
+$lang['sk_SK']['BlogHolder']['TE'] = 'For example: sport, personal, science fiction';
+$lang['sk_SK']['BlogHolder.ss']['NOENTRIES'] = 'Bez článkov';
+$lang['sk_SK']['BlogHolder.ss']['VIEWINGTAGGED'] = 'Články s tagom';
+$lang['sk_SK']['BlogManagementWidget']['COMADM'] = 'Comment administration';
+$lang['sk_SK']['BlogManagementWidget']['PLURALNAME'] = array(
+	'Blog Management Widgets',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['BlogManagementWidget']['SINGULARNAME'] = array(
+	'Blog Management Widget',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+$lang['sk_SK']['BlogManagementWidget']['UNM1'] = 'You have 1 unmoderated comment';
+$lang['sk_SK']['BlogManagementWidget']['UNMM'] = 'You have %i unmoderated comments';
+$lang['sk_SK']['BlogManagementWidget.ss']['LOGOUT'] = 'Logout';
+$lang['sk_SK']['BlogManagementWidget.ss']['POSTNEW'] = 'Post a new blog entry';
+$lang['sk_SK']['BlogSummary.ss']['COMMENTS'] = 'Komentáre';
+$lang['sk_SK']['BlogSummary.ss']['POSTEDBY'] = 'Zverejnil ';
+$lang['sk_SK']['BlogSummary.ss']['POSTEDON'] = 'dňa';
+$lang['sk_SK']['BlogSummary.ss']['VIEWFULL'] = 'Prezrieť celý článok s názvom: ';
+$lang['sk_SK']['BlogTree']['PLURALNAME'] = array(
+	'Blog Tres',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['BlogTree']['SINGULARNAME'] = array(
+	'Blog Tree',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+$lang['sk_SK']['RSSWidget']['CT'] = 'Custom title for the feed';
+$lang['sk_SK']['RSSWidget']['NTS'] = 'Number of Items to show';
+$lang['sk_SK']['RSSWidget']['PLURALNAME'] = array(
+	'R S S Widgets',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['RSSWidget']['SINGULARNAME'] = array(
+	'R S S Widget',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+$lang['sk_SK']['RSSWidget']['URL'] = 'URL of the other page\'s RSS feed.  Please make sure this URL points to an RSS feed.';
+$lang['sk_SK']['SubscribeRSSWidget']['PLURALNAME'] = array(
+	'Subscribe R S S Widgets',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['SubscribeRSSWidget']['SINGULARNAME'] = array(
+	'Subscribe R S S Widget',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+$lang['sk_SK']['SubscribeRSSWidget.ss']['SUBSCRIBETEXT'] = 'Subscribe';
+$lang['sk_SK']['SubscribeRSSWidget.ss']['SUBSCRIBETITLE'] = 'Subscribe to this blog via RSS';
+$lang['sk_SK']['TagCloudWidget']['LIMIT'] = 'Limit number of tags';
+$lang['sk_SK']['TagCloudWidget']['PLURALNAME'] = array(
+	'Tag Cloud Widgets',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['TagCloudWidget']['SBAL'] = 'alphabet';
+$lang['sk_SK']['TagCloudWidget']['SBFREQ'] = 'frequency';
+$lang['sk_SK']['TagCloudWidget']['SINGULARNAME'] = array(
+	'Tag Cloud Widget',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+$lang['sk_SK']['TagCloudWidget']['SORTBY'] = 'Triediť podľa';
+$lang['sk_SK']['TagCloudWidget']['TILE'] = 'Title';
+$lang['sk_SK']['TrackBackPing']['PLURALNAME'] = array(
+	'Track Back Pings',
+	50,
+	'Pural name of the object, used in dropdowns and to generally identify a collection of this object in the interface'
+);
+$lang['sk_SK']['TrackBackPing']['SINGULARNAME'] = array(
+	'Track Back Ping',
+	50,
+	'Singular name of the object, used in dropdowns and to generally identify a single object in the interface'
+);
+
 // EOF
